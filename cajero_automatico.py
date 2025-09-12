@@ -6,9 +6,10 @@ def crear_cuenta(nombre, apellidos, dni, gmail):
     
 
 def iniciar_sesion():
+    # Apartado de inicio de sesión
     
     
-def menu():
+def menu(opcion):
     # Creando menú:
     print('\n * Crear cuenta * \n')
     
@@ -19,4 +20,8 @@ def menu():
     print('[5]. Transferir dinero')
     print('[6]. Cambiar contraseña')
     print('[7]. Salir')
+    
+    opcion = input('Escoja una opción: [1][2][3][4][5][6][7]> ')
+    
+    
     
