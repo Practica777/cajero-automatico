@@ -1,14 +1,8 @@
 print('\n *Cajero automático *\n')
 
-def crear_cuenta(nombre, apellidos, dni, gmail, password):
-    # Apartado para crear el usuario.
-    lista_nombre = [], lista_apellidos = [], lista_dni = [], lista_gmail = [], lista_password = []
-    lista_nombre.append(nombre), lista_apellidos.append(apellidos), lista_dni.append(dni), lista_gmail.append(gmail), lista_password.append(password)
-    return lista_nombre, lista_apellidos, lista_dni, lista_gmail, lista_password
-    
-
 def iniciar_sesion():
     # Apartado de inicio de sesión
+    
     
 
     
